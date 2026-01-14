@@ -168,19 +168,6 @@ STATUSES: {
 }
 ```
 
-### Create Menu for Quick Actions
-
-Add this to create a custom menu in Google Sheets (if you want a UI):
-
-```javascript
-function onOpen() {
-  SpreadsheetApp.getUi()
-    .createMenu('Slack Status')
-    .addItem('Set Vacation (1 week)', 'setVacationStatus')
-    .addItem('Clear Override', 'clearStatusOverride')
-    .addToUi();
-}
-```
 
 ## Troubleshooting
 
@@ -223,5 +210,8 @@ Contributions welcome! Feel free to:
 ## Credits
 
 Created for automated Slack status management with smart scheduling and override capabilities.
+
+## LLM Was used
+I created this readme using LLMs, however, the app is mine + inspirations from github.  
 
 
