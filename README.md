@@ -15,6 +15,9 @@ Automatically manage your Slack status based on your work schedule, holidays, an
 ## Some issues
 It doesn't yet pause notification. Working on that. 
 
+## Base Code 
+I took the base code from this repo: https://github.com/wiraqutra/slack-status-auto-updater.git
+
 ## Setup
 
 ### 1. Create Slack App & Get Token
