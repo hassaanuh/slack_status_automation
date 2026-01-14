@@ -86,6 +86,7 @@ SUMMER_VACATION: {
 
 ### Timezone
 
+#### Currenttly the timezone is US: Central, but you can change as you want.
 Change the timezone in `CONSTANTS`:
 
 ```javascript
