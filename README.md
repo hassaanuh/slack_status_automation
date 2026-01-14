@@ -12,6 +12,9 @@ Automatically manage your Slack status based on your work schedule, holidays, an
 - **Random Emoji Selection**: Daily rotation of emojis for lunch, breaks, and holidays
 - **Timezone Support**: Configured for US Central time (customizable)
 
+## Some issues
+It doesn't yet pause notification. Working on that. 
+
 ## Setup
 
 ### 1. Create Slack App & Get Token
@@ -101,6 +104,7 @@ EMOJIS: {
 }
 ```
 
+#### Note: I usually just google emojis and copy from there to add to manual overrides as my mood suggests.
 ## Usage
 
 ### Manual Overrides
@@ -218,3 +222,5 @@ Contributions welcome! Feel free to:
 ## Credits
 
 Created for automated Slack status management with smart scheduling and override capabilities.
+
+
