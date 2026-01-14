@@ -1,0 +1,28 @@
+# Google Apps Script
+.clasp.json
+.claspignore
+
+# Credentials & Secrets
+*token*
+*secret*
+*credentials*
+.env
+.env.local
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Documentation builds
+docs/_build/
